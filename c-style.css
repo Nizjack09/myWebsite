@@ -1,0 +1,324 @@
+body{ 
+margin: 0;
+padding: 0;
+background: purple;
+}
+p{
+	font-size: 40px;
+	color: black;
+}
+nav{
+	display: inline-block;
+	width: 100%;
+    background:  #00ffff;
+    overflow: auto;
+    position: fixed; 
+
+} 
+nav ul .active ,a:hover
+{
+	background-color:  rgb(255,255,255);
+	padding: 14px 20px;
+	border-radius: 25%;
+}
+.img{
+	border-bottom: 2px solid blue;
+	background: silver;
+	overflow: hidden;
+}
+ul{
+	padding: 0;
+	margin: 0 0 0 150px; 
+	list-style: none;
+	float: right;
+}
+li{
+	display: inline-block;
+}
+.logo img {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 50px;
+	border-radius: none;
+
+}
+
+
+nav h1{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+
+}
+nav h1:hover{
+	background: white;
+	color: blue;
+	display: inline-block;
+}
+
+nav h1{
+	float: right;
+}
+nav a{
+	width: 100px;
+	display: inline-block;
+	padding: 78px 40px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial;
+	color: black;
+	text-align: left;
+	margin-top: 2px;
+}
+
+div h2{
+	font-size: 50px;
+	color: black;
+	text-decoration: double underline yellow;
+}
+.footer .footer-content h1{
+	color: blue;
+}
+#man{
+	width: 100%;
+	height: 450px;
+	background: white;																																																																																																																																																																																																						
+	font-size: 20px;
+	border-bottom: 2px solid blue;
+}
+
+.img #hope{
+	     border-radius: 25%;
+	     width: 300px;
+	     height: 300px;
+	     cursor: pointer;
+}
+
+
+.img #src:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+
+}
+.img #by:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+}
+.img #hi:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+
+}
+.img #jn{
+	border-radius: 25%;
+	width: 395px; 
+	height: 297px; 
+	cursor: pointer;
+}
+.img #td{
+	border-radius: 25%;
+	width: 381px; 
+	height: 298px; 
+	cursor: pointer;
+}
+.img #by{
+	border-radius: 25%;
+	width: 300px; 
+	height: 300px; 
+	cursor: pointer;
+}
+.img #hi{
+	border-radius: 25%;
+	width: 250px; 
+	height: 300px; 
+	cursor: pointer;
+}
+.img #jn:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+
+}
+.img #td:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+
+}
+.img #id{
+	border-radius: 25%;
+	width: 390px; 
+	height: 297px; 
+	cursor: pointer;
+}
+.img #src{
+	border-radius: 25%;
+	width: 360px; 
+	height: 298px; 
+	cursor: pointer;
+}
+.img #jpg{
+	border-radius: 25%;
+	width: 300px; 
+	height: 300px; 
+	cursor: pointer;
+}
+.img #id:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+}
+.img #jpg:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+}
+.img #hope:hover {
+	transform: scale(1.1);
+	transition-duration: 2s;
+}
+.footer {
+	width: 100%;
+	height: 400px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+.footer .footer-content {
+	height: 350px;
+	width: 100%;
+	background: grey;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+.footer-content a{
+         border-radius: 50%;
+         padding: 0;
+}
+.footer-content li a{
+	text-decoration: none;
+	position: center bottom;
+	float: left;
+	font-size: 15px;
+	color: green;
+
+}
+.footer ul{
+	font-size: 20px;
+}
+.footer-content li a{
+	display: inline-block;
+}
+.footer-content a{
+	float: bottom;
+}
+.foreach{
+	padding: 0px;
+	width: 40px;
+	border-radius: 50%;
+	text-decoration: none;
+}
+.foreach:hover{
+	transform: scale(1.5);
+	transition-duration: 2s;
+}
+#map{
+	width: 400px;
+	height: 150px;
+	text-align: center; 
+}
+.footer h3{
+	text-align: bottom;
+	color: darkblue;
+	margin-bottom: 4px;
+	margin-left: 600px;
+	padding-top: 100px;
+}
+.footer h1{
+	text-align: right;
+	text-decoration: none;
+	margin-right: 550px;
+
+}
+.footer h2{
+	text-align: right;
+	margin-right: 100px;
+	color: blue;
+	text-decoration: double underline yellow;
+	font-size: 30px;
+}
+
+.footer .footer-bottom {
+	height: 50px;
+	background: darkblue;
+	color: rgb(255,255,255);
+	width: 100%;
+	border: 1px solid red;
+	text-align: center;
+	position: relative;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 20px;
+}
+
+.footer li{
+	float: bottom;
+}
+.footer .footer-content li{
+	position: relative;
+	display: inline-block;
+	padding: 0px;
+	font-size: 30px;
+}
+
+.footer .footer-content li{
+	display: inline-block;
+	background: none;
+	padding: 0px;
+	border-radius: 25%;
+	width: 80px;
+}
+.facebook{
+	border-radius: 50%;
+	width: 40px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.facebook:hover {
+	transform: scale(1.5);
+	transition-duration: 2s;
+	padding: 0px;
+}
+.twitter{
+	border-radius: 50%;
+	width: 40px;
+	padding: 0px;
+	text-decoration: none;
+}
+.twitter:hover{
+          transform: scale(1.5);
+          transition-duration: 2s;
+          background: green;
+          color:blue;
+          text-decoration: none;
+}
+
+
+.instagram{
+	border-radius: 50%;
+	width: 40px;
+	padding: 0px;
+	text-decoration: none;
+}
+#heavy li a:hover{
+	padding:0px 0px;
+	border-radius: 100%;
+}
+.instagram:hover{
+	transform: scale(1.5);
+	transition-duration: 2s;
+	background: purple;
+	color: red;
+}
